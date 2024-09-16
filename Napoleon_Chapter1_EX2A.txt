@@ -1,0 +1,11 @@
+Johntana Napoleon
+This program will  sell a number of tickets, making sure that each person can buy up to 4 tickets. The highest amount of tickts that canbe sold is 20. 
+
+The code will ask the user how many tickets they would like, and show the remaining tickets  in invintory. The code will stop when all tickets have been sold. 
+,
+Variables in this program --> total_tickets, total_buyers, tickets_requested 
+Function --> sell_tickets 
+
+The proram will have the function sell tickets first,to ask te users for tickets, and laterin the code a while loop to make sure that 20 tickets are not sold. An If statement will then be used to ensure that a user does not buy more than 4 tickets. 
+
+
