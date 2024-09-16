@@ -1,0 +1,21 @@
+Name: Johntana Napoleon
+Date Created: 09/24/2024
+Program Description:
+This program will aid the user to see how spam likely the code is. The main functions of this program will find the most common spam words in the user’s email, and run back how many times those words appear, showing the score of if the text is spam. 
+Logical Steps:
+1. Create a list with the spam words
+2. Create functions that will calculate both the score and the message to the user 
+3. User will enter the message 
+4. The program will spit back the score of spam to the user 
+5. The program will also tell the user the likelihood of spam
+Variables:
+1. spam_words --> list containing the key words
+2. spam_score --> accumulator 
+3. found_keysords--> list that will increase with found keywords
+Functions:
+1. calc_spam_score—> the spam score 
+2. spam_score--> the likelihood score to user
+3. main--> main function running the program 
+
+link to repository: https://github.com/jnapole1/COP2373
+
