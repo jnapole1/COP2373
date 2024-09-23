@@ -1,0 +1,36 @@
+Name: Johntana Napoleon
+Date Created: 09/22/ 2024
+---
+Program Description:
+This program will run what the users highest and lowest expenses are from a list that they input using the reduce method for analysis. 
+--- 
+Logical Steps: 
+1. Import the reduce function from functools 
+2. Functions for getting the user expense and another for analyzing the expenses
+3. Have code that will take the greatest and lowest number 
+4. Use lambda to calculate 
+5. Have the user enter their expenses and how much it costs 
+6. The program will tell the user their highest and lowest expenses 
+--- 
+Variables:
+1. expense_type--> user input for expesses 
+2. amount--> user input for costs 
+3. total_expense--> using the reduce function to calculate the total expess
+4. highest_expesne--> using reduce function for highst expess
+5. lowest_expense--> using reduce function to calc lowest expess
+---  
+Functions:
+1. get_expenses
+a. parameters--> expense_type, amount
+b. return-->  expenses 
+2. analyze_expenses
+a. parameters--> total, highest, and lowest expense
+b. return--> printed total, highest, and lowest expenses 
+3. main
+a. parameters--> expenses
+b. return--> anayzled expenses  
+
+link to repository:  https://github.com/jnapole1/COP2373
+
+
+
