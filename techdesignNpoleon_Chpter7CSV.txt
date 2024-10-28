@@ -1,0 +1,43 @@
+Name: Johntana Napoleon
+Date Created: 27 October 2024
+--
+Program Description:
+This program allows an instructor to store students' exam scores and display them. The first part of the program collects each student's details and writes this information to a CSV file named grades.csv. 
+--
+Functions used in the Program:
+1. Function Name: write_grades_to_csv
+* Description: Collects student names and exam grades, then writes them to grades.csv with headers.
+* Parameters: filename, reder, heder
+* Variables:
+o filename: Stores the name of the CSV file where data is written.
+o num_students: The number of students whose information will be entered (integer).
+o first_name, last_name: The first and last names of a student (strings).
+o exam1, exam2, exam3: Grades for three exams (integers).
+* Logical Steps:
+1. Prompt the user for the number of students.
+2. Open grades.csv in write mode using the with statement.
+3. Write the header row to the file.
+4. Use a loop to get each student's name and grades.
+5. For each student, write a row with their name and exam grades.
+* Returns: display_grades_from_csv()
+-- 
+2. Function Name display_grades_from_csv:
+* Description: Reads data from grades.csv and displays it in a formatted table.
+* Parameters: filename, num_students
+* Variables:
+o filename: The name of the CSV file to read from.
+o header: The header row read from the CSV file.
+o reader: The CSV reader object to iterate through each row.
+* Logical Steps:
+1. Open grades.csv in read mode using the with statement.
+2. Create a reader object to read the file.
+3. Retrieve and print the header row.
+4. Print a separator line.
+5. Loop through each row and print each student's details in a formatted table.
+* Returns: writer.writerow
+Logical Steps
+1. The write_grades_to_csv function is called first, allowing the user to enter student data and write it to grades.csv.
+2. After creating the file, the display_grades_from_csv function is called to read and display the stored data.
+
+link to repository:  https://github.com/jnapole1/COP2373
+

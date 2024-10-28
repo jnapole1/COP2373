@@ -1,0 +1,48 @@
+
+Name: Johntana Napoleon
+Date Created: 27 October 2024
+
+Program Description:
+This program allows users to input multiple sentences, including those that start with numbers. It stores these sentences and displays each one in the order they were entered, with a count of the total number of sentences. This program is helpful for organizing and counting a series of inputs and can serve as a simple text collector
+--
+Functions used in the Program):
+1. Function Name: sentence_input
+o Description: Collects sentences from the user until a stopping keyword ("STOP") is entered.
+o Parameters: run sentences
+o Variables:
+* sentences (List): Stores each sentence input by the user.
+* sentence (String): Temporarily holds each sentence input before it is added to sentences.
+o Logical Steps:
+1. Initialize an empty list, sentences, to store user inputs.
+2. Continuously prompt the user for a sentence.
+3. If the user inputs "STOP", end the loop.
+4. If the input is not "STOP," add the sentence to the sentences list.
+Returns: sentences
+2. Function Name: display_sentences
+o Description: Displays each sentence entered by the user along with a count of the total number of sentences.
+o Parameters:
+* sentences (List): A list of sentences that the user has entered.
+o Variables:
+* i (Integer): Tracks the position of each sentence for display purposes.
+* sentence (String): Holds each sentence in the loop for printing.
+o Logical Steps:
+1. Print a header to indicate the list of sentences.
+2. Enumerate through each sentence in the sentences list, printing each sentence with its position number.
+3. Print the total count of sentences by getting the length of sentences.
+o Returns: This function does not return anything; it simply prints the sentences and count to the console.
+3. Function Name: main
+o Description: Coordinates the program flow by calling sentence_input to gather sentences and then display_sentences to show them.
+o Parameters: None.
+o Variables:
+* sentences (List): Stores the list of sentences collected by calling sentence_input.
+o Logical Steps:
+1. Call sentence_input to collect sentences from the user and store them in sentences.
+2. Call display_sentences with sentences to print each sentence and the total count.
+       Returns: len(sentences)
+
+Logical Steps:
+1. The main function is executed.
+2. Inside main, sentence_input is called to gather sentences from the user.
+3. After collecting sentences, display_sentences is called to show each sentence and the count.
+
+link to repository:  https://github.com/jnapole1/COP2373
